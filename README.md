@@ -1,36 +1,32 @@
 <div align="center">
   <img src="./logo.png" alt="braindump logo" width="180" />
-  <h1><a href="https://zijie-cai.github.io/braindump/">Braindump</a></h1>
-  <p><strong>A quick sticky-note space for jotting things down before they disappear.</strong></p>
+  <h1>👉 <a href="https://zijie-cai.github.io/braindump/">Braindump</a> 👈</h1>
+  <p><strong>A quick place to jot things down before you forget them.</strong></p>
 </div>
 
 ## What It Is
 
-Braindump is a board for loose thoughts, half-plans, reminders, and random sparks.
+Braindump is a space for ideas, reminders, random thoughts, and anything else you want to get out of your head.
 
-You throw things on sticky notes, move them around, and keep the mess readable.
+You put things on sticky notes, move them around, and keep everything in one place.
 
 ## Why It Exists
 
-Some ideas are too early for a document and too alive for a checklist.
+Sometimes you do not need a document, a folder, or a whole system.
 
-Braindump gives them somewhere to land fast, so you can keep track without overthinking the system.
+You just need somewhere to throw things down quickly and come back to them later.
 
 ## Features
 
 - jot notes fast
 - drag them anywhere
 - change colors
-- spread out on an infinite board
+- spread things out
 - keep everything in one view
 - save it all in your browser
 
 ## How It Works
 
-Braindump lives in the browser and keeps your notes local.
+Braindump runs in the browser and keeps your notes there too.
 
-No account. No backend. No setup ritual. Just open it and start dumping.
-
-## Live Site
-
-[Open Braindump](https://zijie-cai.github.io/braindump/)
+No account, no setup, no extra steps. Just open it and start writing.
