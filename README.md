@@ -1,28 +1,42 @@
-# braindump
-
-Braindump is a simple place to put down ideas, keep them in one view, and never lose track of what's on your mind.
-
-It is an infinite wall of sticky notes that feels loose, visual, and fast. No accounts. No backend. No database. Just open it and start pinning thoughts.
+<div align="center">
+  <h1>braindump</h1>
+  <p><strong>A simple sticky-note board for getting ideas out of your head and keeping them in view.</strong><br />Fast to use, easy to move around, and saved right in your browser.</p>
+  <p>
+    <code>Sticky Notes</code>
+    <code>Infinite Board</code>
+    <code>Local Storage</code>
+    <code>GitHub Pages Ready</code>
+  </p>
+</div>
 
 ## What It Does
 
-- Add ideas quickly
-- Drag notes anywhere on the board
-- Change note colors
-- Reorganize your notes when things get messy
-- Keep everything saved in your own browser
+Braindump gives you an infinite wall of notes so you can think in a loose, visual way without losing track of ideas.
 
-## How Data Works
+- add notes fast
+- drag them anywhere
+- change colors
+- tidy the board when it gets messy
+- keep everything saved locally in your browser
 
-Braindump stores notes in `localStorage` under the key `braindump-ideas`.
+## Why It Exists
+
+Some ideas do not belong in folders, forms, or heavy note apps.
+
+Braindump is for quick thoughts, rough plans, random sparks, and things you want to keep in sight without over-organizing them.
+
+## How It Stores Data
+
+Braindump uses `localStorage` with the key `braindump-ideas`.
 
 That means:
-- each person gets their own notes on their own browser
-- nothing is shared automatically
+- each browser keeps its own notes
+- no account is required
+- no server or database is involved
 - clearing browser storage removes saved notes
-- switching devices or browsers does not carry notes over
+- notes do not sync across devices
 
-## Local Development
+## Run Locally
 
 Requirements: Node.js
 
@@ -37,22 +51,22 @@ npm run dev
 npm run build
 ```
 
-The production build is created in `dist/`.
+The production output is generated in `dist/`.
 
-## Deploy to GitHub Pages
+## Deploy
 
-Braindump is now a static Vite app, so GitHub Pages works well for hosting it.
+Braindump is a static Vite app, so it can be hosted on GitHub Pages.
 
 ```bash
 npm run build
 ```
 
-Then publish the `dist/` folder to GitHub Pages using your preferred flow:
+Then publish `dist/` using your preferred flow:
 - GitHub Actions
 - `gh-pages`
-- manual upload via a Pages-compatible branch
+- a Pages branch such as `gh-pages`
 
-The Vite config uses a relative base path, so the built assets can be served from a GitHub Pages project site.
+The app uses a relative Vite base path, so static assets work on GitHub Pages project sites.
 
 ## Stack
 
@@ -60,7 +74,3 @@ The Vite config uses a relative base path, so the built assets can be served fro
 - TypeScript
 - Vite
 - Motion
-
-## Notes
-
-This project intentionally does not use user accounts or a server. If you want syncing across devices later, the next step is adding a hosted data layer such as Firebase or Supabase.
