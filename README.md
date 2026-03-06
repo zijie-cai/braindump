@@ -1,77 +1,50 @@
 <div align="center">
   <h1>braindump</h1>
-  <p><strong>A simple sticky-note board for getting ideas out of your head and keeping them in view.</strong><br />Open it, drop thoughts in, move them around, and never lose track.</p>
+  <p><strong>A simple place to put down ideas, keep them in view, and never lose track of what's on your mind.</strong></p>
   <p>
     <code>Sticky Notes</code>
     <code>Infinite Board</code>
-    <code>Local Storage</code>
-    <code>GitHub Pages Ready</code>
+    <code>Local First</code>
+    <code>Personal by Default</code>
   </p>
 </div>
 
-> Loose enough for messy thinking. Simple enough to use every day.
+## What It Is
 
-## Why Braindump
+Braindump is an infinite wall of sticky notes for thoughts that are still taking shape.
 
-Some ideas are too early for documents and too important for scraps.
+It is built for quick ideas, rough plans, random sparks, and all the in-between things that do not belong in a rigid system yet.
 
-Braindump gives you one visual place to catch thoughts fast, keep them visible, and reshape them as they grow.
+Open it, drop thoughts in, move them around, and keep everything in one visual space.
 
-No folders. No setup. No account. Just a board and your brain.
+## Why It Exists
 
-## What It Does
+Most ideas start messy.
 
-- add notes fast
-- drag notes anywhere on an infinite board
-- change colors as ideas take shape
-- clean up the layout when the board gets chaotic
-- save everything locally in the browser
+They show up halfway formed, out of order, and usually at the wrong time. Braindump gives them a place to land before they disappear.
 
-## Local-First
+It is meant to feel light, immediate, and easy to return to. No account. No overhead. No pressure to organize perfectly.
 
-Braindump stores notes in `localStorage` under `braindump-ideas`.
+## How It Works
 
-- each browser keeps its own notes
-- no server or database is required
-- no account is required
+- add notes quickly
+- move them freely across the board
+- change colors as ideas evolve
+- reorganize the board when it gets crowded
+- keep everything saved in your own browser
+
+## Local First
+
+Braindump keeps your notes on your device, in your browser.
+
+That means it feels personal by default:
+- your notes stay with your browser
+- nothing is shared automatically
+- there is no account system behind it
 - clearing browser storage removes saved notes
-- notes do not sync across devices
 
-## Quick Start
+## The Idea
 
-Requirements: Node.js
+Braindump is not trying to be a full workspace.
 
-```bash
-npm install
-npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-```
-
-The production output is generated in `dist/`.
-
-## Deploy to GitHub Pages
-
-Braindump is a static Vite app, so it can be hosted on GitHub Pages.
-
-```bash
-npm run build
-```
-
-Then publish the built output from `dist/` using your preferred flow:
-- GitHub Actions
-- `gh-pages`
-- a Pages branch such as `gh-pages`
-
-Do not deploy the repo root directly. GitHub Pages needs the compiled files from `dist/`.
-
-## Stack
-
-- React
-- TypeScript
-- Vite
-- Motion
+It is a thinking surface.
