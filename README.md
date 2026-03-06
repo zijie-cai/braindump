@@ -1,56 +1,36 @@
 <div align="center">
   <img src="./logo.png" alt="braindump logo" width="180" />
   <h1><a href="https://zijie-cai.github.io/braindump/">Braindump</a></h1>
-<<<<<<< Updated upstream
-=======
-  <p><strong>A simple sticky-note board for jotting down ideas and keeping them organized.</strong></p>
-  <p>
-    <code>Infinite Board</code>
-    <code>Sticky Notes</code>
-    <code>Local First</code>
-  </p>
->>>>>>> Stashed changes
+  <p><strong>A quick sticky-note space for jotting things down before they disappear.</strong></p>
 </div>
 
 ## What It Is
 
-Braindump is a quick visual space for dropping thoughts onto sticky notes and keeping everything in one view.
+Braindump is a board for loose thoughts, half-plans, reminders, and random sparks.
 
-It is built for rough ideas, small reminders, half-formed plans, and anything else you want to catch before it disappears.
+You throw things on sticky notes, move them around, and keep the mess readable.
 
 ## Why It Exists
 
-Not every idea belongs in a document or a task manager.
+Some ideas are too early for a document and too alive for a checklist.
 
-Sometimes you just need a clean place to jot things down, move them around, and make sense of them later. Braindump keeps that process simple.
+Braindump gives them somewhere to land fast, so you can keep track without overthinking the system.
 
 ## Features
 
-- Quick note capture
-- Draggable sticky notes
-- Color customization
-- Infinite board layout
-- Fast visual organization
-- Local browser storage
+- jot notes fast
+- drag them anywhere
+- change colors
+- spread out on an infinite board
+- keep everything in one view
+- save it all in your browser
 
 ## How It Works
 
-Braindump runs entirely in the browser and saves notes locally on your device.
+Braindump lives in the browser and keeps your notes local.
 
-That means:
-
-- no account required
-- no backend required
-- no database required
-- your notes stay in your browser
+No account. No backend. No setup ritual. Just open it and start dumping.
 
 ## Live Site
 
 [Open Braindump](https://zijie-cai.github.io/braindump/)
-
-## Tech
-
-- React
-- TypeScript
-- Vite
-- Motion
